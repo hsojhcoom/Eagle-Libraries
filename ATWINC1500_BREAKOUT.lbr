@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="ATWINC1500_BREAKOUT">
+<wire x1="0" y1="25.10019375" x2="0" y2="2.83980625" width="0.127" layer="21"/>
+<wire x1="0" y1="2.83980625" x2="2.83980625" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="2.83980625" y1="0" x2="30.18019375" y2="0" width="0.127" layer="21"/>
+<wire x1="30.18019375" y1="0" x2="33.02" y2="2.83980625" width="0.127" layer="21" curve="90"/>
+<wire x1="33.02" y1="2.83980625" x2="33.02" y2="25.10019375" width="0.127" layer="21"/>
+<wire x1="33.02" y1="25.10019375" x2="30.18019375" y2="27.94" width="0.127" layer="21" curve="90"/>
+<wire x1="30.18019375" y1="27.94" x2="2.83980625" y2="27.94" width="0.127" layer="21"/>
+<wire x1="2.83980625" y1="27.94" x2="0" y2="25.10019375" width="0.127" layer="21" curve="90"/>
+<circle x="2.54" y="25.4" radius="1.27" width="0.127" layer="21"/>
+<circle x="30.48" y="25.4" radius="1.27" width="0.127" layer="21"/>
+<pad name="VIN" x="1.27" y="2.54" drill="0.8"/>
+<pad name="GN" x="3.81" y="2.54" drill="0.8"/>
+<pad name="SCK" x="6.35" y="2.54" drill="0.8"/>
+<pad name="MISO" x="8.89" y="2.54" drill="0.8"/>
+<pad name="MOSI" x="11.43" y="2.54" drill="0.8"/>
+<pad name="CS" x="13.97" y="2.54" drill="0.8"/>
+<pad name="EN" x="16.51" y="2.54" drill="0.8"/>
+<pad name="IRQ" x="19.05" y="2.54" drill="0.8"/>
+<pad name="RST" x="21.59" y="2.54" drill="0.8"/>
+<pad name="WAKE" x="24.13" y="2.54" drill="0.8"/>
+<pad name="CFG" x="26.67" y="2.54" drill="0.8"/>
+<pad name="RXD" x="29.21" y="2.54" drill="0.8"/>
+<pad name="TXD" x="31.75" y="2.54" drill="0.8"/>
+<text x="12.7" y="24.13" size="1.27" layer="21">&gt;VALUE</text>
+<text x="6.35" y="13.97" size="3.81" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ATWINC1500_BREAKOUT">
+<wire x1="0" y1="0" x2="0" y2="27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="27.94" x2="66.04" y2="27.94" width="0.254" layer="94"/>
+<wire x1="66.04" y1="27.94" x2="66.04" y2="0" width="0.254" layer="94"/>
+<wire x1="66.04" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VIN" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="GND" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="SCK" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="MISO" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="MOSI" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="CS" x="27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="EN" x="33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="IRQ" x="38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="RST" x="43.18" y="-5.08" length="middle" rot="R90"/>
+<pin name="WAKE" x="48.26" y="-5.08" length="middle" rot="R90"/>
+<pin name="CFG" x="53.34" y="-5.08" length="middle" rot="R90"/>
+<pin name="RXD" x="58.42" y="-5.08" length="middle" rot="R90"/>
+<pin name="TXD" x="63.5" y="-5.08" length="middle" rot="R90"/>
+<text x="2.54" y="25.4" size="1.778" layer="94">&gt;VALUE</text>
+<text x="22.86" y="15.24" size="3.81" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATWIN1500_BREAKOUT">
+<description>ATWINC1500 Breakout Board
+Board From AdaFruit 
+Creator: Josh Mucinski 
+Version: V1</description>
+<gates>
+<gate name="G$1" symbol="ATWINC1500_BREAKOUT" x="-30.48" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="ATWINC1500_BREAKOUT">
+<connects>
+<connect gate="G$1" pin="CFG" pad="CFG"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GN"/>
+<connect gate="G$1" pin="IRQ" pad="IRQ"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="WAKE" pad="WAKE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
